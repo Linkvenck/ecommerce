@@ -1,4 +1,6 @@
-(function ($) {
+(initPageEccomerce($))(jQuery);
+
+function initPageEccomerce($) {
     "use strict";
 
     // hide perloader
@@ -387,4 +389,4 @@
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
     })
-})(jQuery);
+}
